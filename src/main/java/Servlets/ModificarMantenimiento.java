@@ -4,7 +4,7 @@ import Entidades.DetallesMantenimiento;
 import Entidades.Mantenimientos;
 import Negocio.ControladorBicicletas;
 import Negocio.ControladorMantenimientos;
-//import com.mysql.jdbc.StringUtils;
+import com.mysql.jdbc.StringUtils;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -51,10 +51,10 @@ public class ModificarMantenimiento extends HttpServlet {
         new ControladorMantenimientos().modificarDetalle(detalles.get(i));
       }
 
-      /*if(!StringUtils.isNullOrEmpty(request.getParameter("km_egreso")))
+      if(!StringUtils.isNullOrEmpty(request.getParameter("km_egreso")))
         kme = Double.valueOf(request.getParameter("km_egreso").replace(",", "."));
       else
-        kme = Double.valueOf(request.getParameter("kmParc").replace(",", "."));*/
+        kme = Double.valueOf(request.getParameter("kmParc").replace(",", "."));
       
       if (values.length == cantReq) {        
         String[] fechae = request.getParameter("fec_egreso").split("\\/");
