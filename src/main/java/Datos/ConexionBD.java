@@ -25,11 +25,12 @@ public class ConexionBD {
 DriverManager.getConnection(URL, user_name,user_password);*/
   
   
-  private static final String DBURL = "jdbc:mysql://localhost:3306/bici_amiga";
-  //private static final String DBURL = "jdbc:mysql://node16121-env-3933700.jelastic.saveincloud.net/bici_amiga";
+  //private static final String DBURL = "jdbc:mysql://localhost:3306/bici_amiga";
+	//https://node23970-biciamiga.jelastic.saveincloud.net/bici_amiga
+  private static final String DBURL = "jdbc:mysql://node23970-biciamiga.jelastic.saveincloud.net/bici_amiga";
   private static final String DBUSER = "root";
-  private static final String DBPASSWORD = "";
-  //private static final String DBPASSWORD = "IAVvgb29139";
+  //private static final String DBPASSWORD = "";
+  private static final String DBPASSWORD = "ACOigy47416";
 
   private ConexionBD(){}
   
