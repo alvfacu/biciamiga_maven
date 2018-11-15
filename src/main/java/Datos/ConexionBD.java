@@ -27,7 +27,7 @@ DriverManager.getConnection(URL, user_name,user_password);*/
   
   //private static final String DBURL = "jdbc:mysql://localhost:3306/bici_amiga";
 	//https://node23970-biciamiga.jelastic.saveincloud.net/bici_amiga
-  private static final String DBURL = "jdbc:mysql://node24319-biciamigajava.jelastic.saveincloud.net";
+  private static final String DBURL = "jdbc:mysql://node24319-biciamigajava.jelastic.saveincloud.net/bici_amiga";
   private static final String DBUSER = "root";
   //private static final String DBPASSWORD = "";
   private static final String DBPASSWORD = "SMRpym93614";
